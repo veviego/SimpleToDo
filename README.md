@@ -21,6 +21,7 @@ The following **optional** features are implemented:
 The following **additional** features are implemented:
 
 * [x] Prevent users from adding an empty item to their list
+* [x] Added two tone color scheme to GUI
 
 ## Video Walkthrough
 
