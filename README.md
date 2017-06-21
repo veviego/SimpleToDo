@@ -28,6 +28,8 @@ Here's a walkthrough of implemented user stories:
 
 <img src="demo.gif" alt="walkthrough" height=500/>
 
+<img src="optionalsDemo.gif" alt="optionalsWalkthrough" height=500/>
+
 ## Notes
 
 App specific challenges were minimal, though attempting to use the Android Studio emulator was
