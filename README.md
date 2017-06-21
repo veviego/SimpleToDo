@@ -26,7 +26,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-! [walkthrough] (demo2.gif)
+![walkthrough] (demo2.gif)
 
 ## Notes
 
