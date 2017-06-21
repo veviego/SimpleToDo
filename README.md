@@ -30,8 +30,6 @@ Here's a walkthrough of implemented user stories:
 
 ## Notes
 
-Describe any challenges encountered while building the app.
-
 App specific challenges were minimal, though attempting to use the Android Studio emulator was
 difficult and ultimately unsuccessful.  The app was tested using a physical device.
 
