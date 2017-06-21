@@ -32,6 +32,7 @@
         android:hint="Add a new item"
         android:inputType="textPersonName"
         android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/btnAddItem"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 </RelativeLayout>
