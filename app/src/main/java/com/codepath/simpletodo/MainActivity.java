@@ -88,14 +88,19 @@ public class MainActivity extends AppCompatActivity {
         EditText etNewItem = (EditText) findViewById(R.id.etNewItem);
         // grab the EditText's content as a String
         String itemText = etNewItem.getText().toString();
-        // add the item to the list via the adapter
-        itemsAdapter.add(itemText);
-        // store the updated list
-        writeItems();
-        // clear the EditText by setting it to an empty String
-        etNewItem.setText("");
-        // display a notification to the user
-        Toast.makeText(getApplicationContext(), "Item added to list", Toast.LENGTH_SHORT).show();
+        if (!itemText.equals("")) {
+            // add the item to the list via the adapter
+            itemsAdapter.add(itemText);
+            // store the updated list
+            writeItems();
+            // clear the EditText by setting it to an empty String
+            etNewItem.setText("");
+            // display a notification to the user
+            Toast.makeText(getApplicationContext(), "Item added to list", Toast.LENGTH_SHORT).show();
+        } else {
+            // display a notification to the user
+            Toast.makeText(getApplicationContext(), "Don't add an empty item!", Toast.LENGTH_SHORT).show();
+        }
     }
 
     // returns the file in which the data is stored
