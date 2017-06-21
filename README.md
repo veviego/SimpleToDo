@@ -26,7 +26,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-![walkthrough] (/demo.gif)
+<img src="demo.gif" alt="walkthrough" height=500/>
 
 ## Notes
 
